@@ -1,0 +1,47 @@
+
+.button1 {
+  background-color: brown;
+  border-radius: 64px;
+  color: azure;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.subheading {
+  background-color: lightsalmon;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.image {
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.button {
+  background-color: red;
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  border-style: groove;
+}
+
+.tweet {
+  background-color: rgb(38, 200, 245);
+  color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+}
