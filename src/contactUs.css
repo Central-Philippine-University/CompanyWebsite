@@ -1,0 +1,944 @@
+body {
+  background-color: #fff0da;
+  color: #402b1c;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #402b1c;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  color: #f8f0e3;
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f0e3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37;
+  text-decoration: line-through;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #f8f0e3;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 72px;
+  color: #402b1c;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #402b1c;
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #402b1c;
+  border-color: #402b1c;
+}
+
+.col-sm-4 {
+  margin-bottom: 30px;
+}
+
+.product-img {
+  margin-top: 20px;
+}
+
+.product-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product-name {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #402b1c;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #402b1c;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #d4af39;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #402b1c;
+  color: #f8f0e3;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.product-img img {
+  width: 100%;
+  height: 400px; /* adjust the height as necessary */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-img img {
+  width: 100%;
+  height: 70px; /* adjust the height as necessary */
+  object-fit: cover;
+  border-radius: 200px;
+  border: #d4af39 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #e6a818;
+  border-color: #e6a818;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* contactus css */
+
+.contactUsTitle {
+  font-family: roboto;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+.contactUsnearmap {
+  font-family: roboto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.mapouter {
+  position:relative;
+  text-align:center;
+  height:100%;
+  width:100%;
+}
+
+.gmap_canvas {overflow:hidden;
+  background:none!important;
+  height:300px;
+  width:1000px; 
+  margin: auto;
+}
+
+.contactUsminititle {
+  font-family: roboto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  
+}
+
+.contactUsdesc {
+  font-family: roboto;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+ .lenks {
+  font-family: roboto;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 750px) {
+  .element {
+  width: 350px;
+  }
+  
+  body {
+    background-color: #fff0da;
+    color: #402b1c;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #402b1c;
+  }
+  
+  .navbar-brand {
+    margin-left: 30px;
+    color: #f8f0e3;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f0e3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d4af37;
+    text-decoration: line-through;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .jumbotron {
+    background-color: #f8f0e3;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    color: #402b1c;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .jumbotron p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 50px;
+  }
+  
+  .btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #402b1c;
+    border-color: #402b1c;
+  }
+  
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  
+  .product-img {
+    margin-top: 20px;
+  }
+  
+  .product-img img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #402b1c;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #d4af39;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #402b1c;
+    color: #f8f0e3;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  .product-img img {
+    width: 100%;
+    height: 400px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logo-img img {
+    width: 100%;
+    height: 70px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 200px;
+    border: #d4af39 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-info {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #e6a818;
+    border-color: #e6a818;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  /* contactus css */
+  
+  .contactUsTitle {
+    font-family: roboto;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+  }
+  
+  .contactUsnearmap {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .mapouter {
+    position:relative;
+    text-align:center;
+    width:100%;
+  }
+  
+  .gmap_canvas {overflow:hidden;
+    
+    width:100%; 
+    margin: auto;
+  }
+  
+  .contactUsminititle {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .contactUsdesc {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  
+   .lenks {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 750.02px) and (max-width: 1000px) {
+  .element {
+  width: 450px;
+  }
+
+  body {
+    background-color: #fff0da;
+    color: #402b1c;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #402b1c;
+  }
+  
+  .navbar-brand {
+    margin-left: 30px;
+    color: #f8f0e3;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f0e3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d4af37;
+    text-decoration: line-through;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .jumbotron {
+    background-color: #f8f0e3;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    color: #402b1c;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .jumbotron p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 50px;
+  }
+  
+  .btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #402b1c;
+    border-color: #402b1c;
+  }
+  
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  
+  .product-img {
+    margin-top: 20px;
+  }
+  
+  .product-img img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #402b1c;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #d4af39;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #402b1c;
+    color: #f8f0e3;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  .product-img img {
+    width: 100%;
+    height: 400px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logo-img img {
+    width: 100%;
+    height: 70px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 200px;
+    border: #d4af39 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-info {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #e6a818;
+    border-color: #e6a818;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  /* contactus css */
+  
+  .contactUsTitle {
+    font-family: roboto;
+    font-size: 70x;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+  }
+  
+  .contactUsnearmap {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .mapouter {
+    position:relative;
+    text-align:center;
+    height: 100%;
+    width:100%;
+  }
+  
+  .gmap_canvas {overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:1000px; 
+    margin: auto;
+  }
+  
+  .contactUsminititle {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .contactUsdesc {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  
+   .lenks {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  }
+
+@media (min-width: 1000.02px) {
+  .element {
+  width: 600px;
+  }
+
+  body {
+    background-color: #fff0da;
+    color: #402b1c;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #402b1c;
+  }
+  
+  .navbar-brand {
+    margin-left: 30px;
+    color: #f8f0e3;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f0e3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d4af37;
+    text-decoration: line-through;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .jumbotron {
+    background-color: #f8f0e3;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    color: #402b1c;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .jumbotron p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 50px;
+  }
+  
+  .btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #402b1c;
+    border-color: #402b1c;
+  }
+  
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  
+  .product-img {
+    margin-top: 20px;
+  }
+  
+  .product-img img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #402b1c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #402b1c;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #d4af39;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #402b1c;
+    color: #f8f0e3;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  .product-img img {
+    width: 100%;
+    height: 400px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logo-img img {
+    width: 100%;
+    height: 70px; /* adjust the height as necessary */
+    object-fit: cover;
+    border-radius: 200px;
+    border: #d4af39 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-info {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #e6a818;
+    border-color: #e6a818;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
+  /* contactus css */
+  
+  .contactUsTitle {
+    font-family: roboto;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+  }
+  
+  .contactUsnearmap {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .mapouter {
+    position:relative;
+    text-align:center;
+
+    width:100%;
+  }
+  
+  .gmap_canvas {overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:1000px; 
+    margin: auto;
+  }
+  
+  .contactUsminititle {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .contactUsdesc {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  
+    .lenks {
+    font-family: roboto;
+    text-align: center;
+    font-size: 13px;
+  }
+}

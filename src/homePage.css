@@ -1,0 +1,273 @@
+body {
+  background-color: #fff0da;
+  color: #402b1c;
+  font-family: 'roboto', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.head {
+  color: aliceblue;
+  height: 69px;
+  text-align: center;
+  background-color: #654321;
+  font-size: 60px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  margin: 23px 23px;
+}
+
+.logoImg {
+  background-color: #835C3B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.logo {
+  padding: 20px;
+  margin: 23px 23px;
+  border-radius: 30px;
+  text-align: center;
+  width: 469px;
+  height: 469px;
+}
+
+.rightside {
+  padding-left: 40px;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slogan {
+  color: aliceblue;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 50px 101px;
+  font-family: 'Merriweather';
+  font-size: 36px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #835C3B;
+  border-radius: 30px;
+}
+
+.button1 {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Barlow';
+  margin-bottom: 10px;
+  margin: 10px;
+  padding: 20px 50px;
+  background-color: #835C3B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: #FFDB58;
+}
+
+.button2 {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Barlow';
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  background-color: #835C3B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: #FFDB58;
+}
+
+.button3 {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Barlow';
+  padding: 20px 50px;
+  background-color: #835C3B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button3:hover {
+  background-color: #FFDB58;
+}
+
+.footer {
+  color: aliceblue;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #654321;
+  padding: 10px 10px;
+}
+
+@media only screen and (max-width: 655px) {
+  .container {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .head {
+    color: aliceblue;
+    text-align: center;
+    background-color: #654321;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 0;
+    position: relative;
+  }
+
+  .logoImg {
+    padding-right: 16px;
+    background-color: #835C3B;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+  }
+  .rightside {
+    padding: 10px;
+  }
+  .slogan {
+    margin: 10px;
+    padding: 20px;
+  }
+  .button1,
+  .button2,
+  .button3 {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 655px) and (max-width: 750px){
+  .container {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .head {
+    color: aliceblue;
+    text-align: center;
+    background-color: #654321;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  .logoImg {
+    padding-right: 5px;
+    background-color: #835C3B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .logo {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+  }
+  .rightside {
+    padding: 10px;
+  }
+  .slogan {
+    margin: 10px;
+    padding: 20px;
+  }
+  .button1,
+  .button2,
+  .button3 {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .logo {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+  }
+
+  .rightside {
+    padding: 20px;
+  }
+
+  .slogan {
+    margin: 20px;
+    padding: 40px;
+  }
+
+  .button1,
+  .button2,
+  .button3 {
+    padding: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    margin: 30px;
+  }
+
+  .logo {
+    width: 369px;
+    height: 369px;
+    border-radius: 30px;
+  }
+
+  .rightside {
+    padding-left: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slogan {
+    padding: 50px 101px;
+  }
+  .button1,
+  .button2,
+  .button3 {
+    padding: 20px 150px;
+  }
+}
+
